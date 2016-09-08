@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 class Tree
 	attr_accessor :children, :node_name
 
