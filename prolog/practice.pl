@@ -14,27 +14,3 @@ dead(zed).
 loves(X,mia):- goodDancer(Y).
 kills(X, marsellus):- footMassage(mia).
 eats(X, jules):- nutritious(Y); tasty(Z).
-
-
-
-
-
-
-
-Exercise  1.5 Suppose we are working with the following knowledge base:
-
-
-   wizard(ron). 
-   hasWand(harry). 
-   quidditchPlayer(harry). 
-   wizard(X):-  hasBroom(X),  hasWand(X). 
-   hasBroom(X):-  quidditchPlayer(X).
-How does Prolog respond to the following queries?
-
-wizard(ron). true
-witch(ron). false
-wizard(hermione). false
-witch(hermione). false
-wizard(harry). true
-wizard(Y). ron; harry
-witch(Y). false
